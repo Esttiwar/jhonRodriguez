@@ -1,3 +1,14 @@
 .fondo {
     background-color: #202020;
 }
+
+.image-perfil{ 
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+    height: 80%;
+    border-radius: 50%;
+}
