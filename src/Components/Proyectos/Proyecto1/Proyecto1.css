@@ -1,0 +1,22 @@
+.fondo-proyecto {
+    background-color: #04001e;
+    /* border: 1px white solid; */
+}
+
+.img-proyecto1 {
+    position: relative;
+}
+
+.img-proyecto1 > img {
+    height: auto;
+}
+
+.img-proyecto1:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0.1) 70%, #04001e);
+}

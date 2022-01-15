@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-img {
+.image-perfil > img {
     width: 50%;
     height: 80%;
     border-radius: 50%;
