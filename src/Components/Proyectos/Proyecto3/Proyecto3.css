@@ -1,0 +1,26 @@
+.img-proyecto3 {
+    position: relative;
+}
+
+.img-proyecto3 > img {
+    height: auto;
+}
+
+.img-proyecto3:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0.1) 60%, #000000);
+}
+
+.logo-react {
+    height: 100%;
+}
+
+.logo-react > img{
+    height: 48px;
+    width: 48px;
+}
