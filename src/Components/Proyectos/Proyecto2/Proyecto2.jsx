@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Proyecto2.css"
+import { Icon } from '@iconify/react';
 
 const Proyecto2 = () => {
     return (
@@ -7,11 +8,27 @@ const Proyecto2 = () => {
             <div className='w-1/2 display flex py-32 px-32'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-black 2xl:text-4xl'>
-                        Proyecto 2 del portafolio
+                        Gestión de ventas
                     </h1>
                     <p className='text-base text-black pt-10 2xl:text-2xl'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, laudantium harum deserunt officiis numquam possimus officia animi eius dolor minima, ratione eligendi, veritatis ipsum atque ea porro ab asperiores sequi!
+                    Formé parte de este proyecto en el frontend, para la aplicación se construyó un sistema de seguimiento de ventas y productos de los usuarios. Utilizamos Toastify para notificar al usuario sobre sus acciones y conexión a una API backend creada por mi equipo para hacer una API REST-CRUD.
+
+                    Utilizamos la metodologia ágil Scrum para organizar la forma en cómo trabajamos y llevamos el proyecto.
                     </p>
+                    <div className='diplay flex'>
+                        <span>
+                            <Icon icon="logos:react" width="48" height="48" inline={true} />
+                        </span>
+                        <span>
+                            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
+                        </span>
+                        <span>
+                            <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                        </span>
+                        <span>
+                            <Icon icon="logos:tailwindcss-icon" width="48" height="48" />
+                        </span>
+                    </div>
                     <div>
                         <button className='rounded-lg mr-8 text-white font-semibold p-4 bg-black my-10 2xl:text-xl'>
                             Ver proyecto

@@ -7,10 +7,10 @@ const Proyecto4 = () => {
             <div className='w-1/2 display flex py-32 px-32'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-black 2xl:text-4xl'>
-                        Proyecto 4 del portafolio
+                        Rovers NASA API
                     </h1>
                     <p className='text-base text-black pt-10 2xl:text-2xl'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, laudantium harum deserunt officiis numquam possimus officia animi eius dolor minima, ratione eligendi, veritatis ipsum atque ea porro ab asperiores sequi!
+                        Esta webApp muestra los Rovers de la NASA que actualmente están en Marte, puedes escoger el Rover, el número del día (sol) y desde qué cámara quieres ver las fotografías del planeta rojo.
                     </p>
                     <div className='diplay flex'>
                         <span>

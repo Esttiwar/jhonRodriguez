@@ -1,13 +1,17 @@
 import React from 'react'
-import "./Proyecto6.css"
+import "./Proyecto7.css"
+import { Icon } from '@iconify/react';
 
-const Proyecto6 = () => {
+const Proyecto7 = () => {
     return (
-        <div className='display flex bg-blue-500 w-screen'>
+        <div className='display flex bg-yellow-300 w-screen'>
+            <div className='w-1/2 img-proyecto7 display flex justify-center items-center'>
+                <img src="https://i.postimg.cc/gcKnrPp4/Captura-de-pantalla-2021-08-08-18-43-50.png" alt="imagen proyecto" />
+            </div>
             <div className='w-1/2 display flex py-32 px-32'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-black 2xl:text-4xl'>
-                        APOD NASA API
+                        Proyecto 7 del portafolio
                     </h1>
                     <p className='text-base text-black pt-10 2xl:text-2xl'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, laudantium harum deserunt officiis numquam possimus officia animi eius dolor minima, ratione eligendi, veritatis ipsum atque ea porro ab asperiores sequi!
@@ -22,6 +26,9 @@ const Proyecto6 = () => {
                         <span>
                             <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
                         </span>
+                        <span>
+                            <Icon icon="vscode-icons:file-type-sass" width="48" height="48" inline={true} />
+                        </span>
                     </div>
                     <div>
                         <button className='rounded-lg mr-8 text-white font-semibold p-4 bg-black my-10 2xl:text-xl'>
@@ -33,12 +40,9 @@ const Proyecto6 = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-1/2 img-proyecto6 display flex justify-center items-center'>
-                <img src="https://i.postimg.cc/htt7WYy2/fondo-Nasa.png" alt="imagen proyecto" />
-            </div>
             
         </div>
     )
 }
 
-export default Proyecto6
+export default Proyecto7

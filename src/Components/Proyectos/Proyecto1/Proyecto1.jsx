@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Proyecto1.css"
+import { Icon } from '@iconify/react';
 
 const Proyecto1 = () => {
     return (
@@ -10,11 +11,30 @@ const Proyecto1 = () => {
             <div className='w-1/2 display flex py-32 px-32'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-white 2xl:text-4xl'>
-                        Proyecto 1 del portafolio
+                        Proyectorio
                     </h1>
                     <p className='text-base text-white pt-10 2xl:text-2xl'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, laudantium harum deserunt officiis numquam possimus officia animi eius dolor minima, ratione eligendi, veritatis ipsum atque ea porro ab asperiores sequi!
+                    Formé parte de este proyecto en el frontend, la aplicación fue construida para que los equipos de investigación realicen sus proyectos y lleven un control de sus actualizaciones. Usamos Toastify para notificar al usuario sobre sus acciones, y para la comunicación con el backend usamos GraphQL.
+
+                    Utilizamos la metodologia ágil Scrum para organizar la forma en cómo trabajamos y llevamos el proyecto.
                     </p>
+                    <div className='diplay flex'>
+                        <span>
+                            <Icon icon="logos:react" width="48" height="48" inline={true} />
+                        </span>
+                        <span>
+                            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
+                        </span>
+                        <span>
+                            <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                        </span>
+                        <span>
+                            <Icon icon="logos:tailwindcss-icon" width="48" height="48" />
+                        </span>
+                        <span>
+                            <Icon icon="akar-icons:graphql-fill" color="#ff4081" width="48" height="48" />
+                        </span>
+                    </div>
                     <div>
                         <button className='rounded-lg mr-8 font-semibold p-4 bg-gray-50 my-10 2xl:text-xl'>
                             Ver proyecto

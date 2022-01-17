@@ -11,23 +11,20 @@ const Proyecto3 = () => {
             <div className='w-1/2 display flex py-32 px-32'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-white 2xl:text-4xl'>
-                        Proyecto 3 del portafolio
+                        Rick and Morty API
                     </h1>
                     <p className='text-base text-white pt-10 2xl:text-2xl'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, laudantium harum deserunt officiis numquam possimus officia animi eius dolor minima, ratione eligendi, veritatis ipsum atque ea porro ab asperiores sequi!
+                        Pegada a API de Rick and Morty, muestra de personajes en tarjetas, utilización de paginación y buscador de personajes.
                     </p>
                     <div className='diplay flex'>
                         <span>
-                            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
-                        </span>
-                        <span>
-                            <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                            <Icon icon="logos:react" width="48" height="48" inline={true} />
                         </span>
                         <span>
                             <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
                         </span>
-                        <span className='logo-react'>
-                            <img src="https://img.icons8.com/nolan/64/react-native.png"/>
+                        <span>
+                            <img src="https://img.icons8.com/color/48/000000/css3.png"/>
                         </span>
                         <span>
                             <Icon icon="logos:tailwindcss-icon" width="48" height="48" />

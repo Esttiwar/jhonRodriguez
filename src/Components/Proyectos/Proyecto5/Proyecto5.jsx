@@ -3,17 +3,17 @@ import "./Proyecto5.css"
 
 const Proyecto5 = () => {
     return (
-        <div className='display flex bg-yellow-400 w-screen'>
+        <div className='display flex bg-pink-500 w-screen'>
             <div className='w-1/2 img-proyecto5 display flex justify-center items-center'>
                 <img src="https://i.postimg.cc/tRD9S9YG/fondoproyecto1.png" alt="imagen proyecto" />
             </div>
             <div className='w-1/2 display flex py-32 px-32'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-black 2xl:text-4xl'>
-                        Proyecto 5 del portafolio
+                        Pokémon API
                     </h1>
                     <p className='text-base text-black pt-10 2xl:text-2xl'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, laudantium harum deserunt officiis numquam possimus officia animi eius dolor minima, ratione eligendi, veritatis ipsum atque ea porro ab asperiores sequi!
+                        Muestra los Pokémons en tarjetas, te trae el número que le escribas y el color te lo pone dependiendo del tipo de Pokémon que sea. Si seleccionas uno, te mostrará en otra pestaña más detalladamente ese Pokémon.
                     </p>
                     <div className='diplay flex'>
                         <span>
