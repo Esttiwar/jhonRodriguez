@@ -6,6 +6,7 @@ import Proyecto4 from './Proyecto4/Proyecto4.jsx'
 import Proyecto5 from './Proyecto5/Proyecto5.jsx'
 import Proyecto6 from './Proyecto6/Proyecto6.jsx'
 import Proyecto7 from './Proyecto7/Proyecto7.jsx'
+import Proyecto8 from './Proyecto8/Proyecto8.jsx'
 
 const Proyectos = () => {
     return (
@@ -17,6 +18,7 @@ const Proyectos = () => {
             <Proyecto5 />
             <Proyecto6 />
             <Proyecto7 />
+            <Proyecto8 />
         </div>
     )
 }
