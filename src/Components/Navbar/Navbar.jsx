@@ -14,12 +14,14 @@ const Navbar = () => {
                     </a>
                 </button>
                 <button>
-                <a href="#ancla-e">
-                    <h2 className='text-white mx-6 text-lg'>Experiencia</h2>
-                </a>
+                    <a href="#ancla-e">
+                        <h2 className='text-white mx-6 text-lg'>Experiencia</h2>
+                    </a>
                 </button>
                 <button>
-                    <h2 className='text-white mx-6 text-lg'>Contacto</h2>
+                    <a href="#ancla-c">
+                        <h2 className='text-white mx-6 text-lg'>Contacto</h2>
+                    </a>
                 </button>
             </div>
 
