@@ -5,6 +5,7 @@ const Navbar = () => {
     return (
         <div className='diplay flex md:justify-around navbar-color py-5 w-screen'>
             <div className=''>
+                <a name="navbar" />
                 <h1 className='text-white px-2 font-bold text-3xl'>Jhon Rodríguez</h1>
             </div>
             <div className='diplay flex justify-center'>

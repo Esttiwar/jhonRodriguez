@@ -5,10 +5,24 @@ import Proyectos from './Components/Proyectos/Proyectos';
 import Experiencia from './Components/Experiencia/Experiencia';
 import Contacto from './Components/Contacto/Contacto.jsx'
 import Footer from './Components/Footer/Footer';
+import { Icon } from '@iconify/react';
 
 function App() {
+  window.onscroll = function() {
+    if (window.scrollY > 600) {
+        const $up = document.querySelector(".up");
+        $up.style.visibility = "visible";
+    
+    } else if (window.scrollY < 600) {
+        const $up = document.querySelector(".up");
+        $up.style.visibility = "hidden";
+    }
+};
   return (
-    <div>
+    <div className='w-screen'>
+      <div class="up">
+            <a href="#navbar"><Icon icon="akar-icons:circle-chevron-up-fill" width="40" height="40" /></a>
+      </div>
       <Navbar />
       <Presentacion />
       <Proyectos />

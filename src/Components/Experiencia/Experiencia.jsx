@@ -33,7 +33,7 @@ const Experiencia = () => {
             </div>
 
             {/* Experiencia 2 */}
-            <div className='mt-10 px-60 exp-1'>
+            <div className='mt-10 px-60 exp-2'>
                 <div className='mt-10'>
                     <h1 className='text-white font-bold text-lg'>
                         Student Internships UdeA
@@ -53,7 +53,7 @@ const Experiencia = () => {
 
 
             {/* Habilidades Principales */}
-            <div>
+            <div className='mt-10 px-6'>
                 <div className='mt-32'>
                     <h1 className='text-white font-bold text-2xl'>Habilidades Principales</h1>
                 </div>

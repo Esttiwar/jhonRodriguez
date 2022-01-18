@@ -4,8 +4,8 @@ import { Icon } from '@iconify/react';
 
 const Proyecto8 = () => {
     return (
-        <div className='display flex bg-purple-600 w-screen'>
-            <div className='w-1/2 display flex py-32 px-32'>
+        <div className='display fondo-proyecto8 flex bg-purple-600 w-screen'>
+            <div className='w-1/2 display flex py-32 px-32 texto-p8'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-black 2xl:text-4xl'>
                         Validador de Email
@@ -14,27 +14,31 @@ const Proyecto8 = () => {
                         La página tiene en su lógica una expresión regular que te indica si un correo está bien escrito en sus requisitos.
                     </p>
                     <div className='diplay flex'>
-                        <span>
+                        <span title='HTML'>
                             <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
                         </span>
-                        <span>
+                        <span title='Sass'>
                             <Icon icon="vscode-icons:file-type-sass" width="48" height="48" inline={true} />
                         </span>
-                        <span>
+                        <span title='JavaScript'>
                             <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
                         </span>
                     </div>
-                    <div>
-                        <a target="_blank" href="https://esttiwar.github.io/landing-email-validator/">
-                            <button className='rounded-lg mr-8 text-white font-semibold p-4 bg-black my-10 2xl:text-xl'>
-                                Ver proyecto
-                            </button>
-                        </a>
-                        <a target="_blank" href="https://github.com/Esttiwar/landing-email-validator">
-                            <button className='rounded-lg text-black font-semibold border-solid border-2 border-black py-4 px-7 my-10 2xl:text-xl'>
-                                Ver código
-                            </button>
-                        </a>
+                    <div className='botones display flex'>
+                        <div>
+                            <a target="_blank" href="https://esttiwar.github.io/landing-email-validator/">
+                                <button className='rounded-lg ver-proyecto mr-8 text-white font-semibold p-4 bg-black my-10 2xl:text-xl'>
+                                    Ver proyecto
+                                </button>
+                            </a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://github.com/Esttiwar/landing-email-validator">
+                                <button className='rounded-lg ver-codigo text-black font-semibold border-solid border-2 border-black py-4 px-7 my-10 2xl:text-xl'>
+                                    Ver código
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
