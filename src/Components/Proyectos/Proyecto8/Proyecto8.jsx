@@ -25,12 +25,16 @@ const Proyecto8 = () => {
                         </span>
                     </div>
                     <div>
-                        <button className='rounded-lg mr-8 text-white font-semibold p-4 bg-black my-10 2xl:text-xl'>
-                            Ver proyecto
-                        </button>
-                        <button className='rounded-lg text-black font-semibold border-solid border-2 border-black py-4 px-7 my-10 2xl:text-xl'>
-                            Ver código
-                        </button>
+                        <a target="_blank" href="https://esttiwar.github.io/landing-email-validator/">
+                            <button className='rounded-lg mr-8 text-white font-semibold p-4 bg-black my-10 2xl:text-xl'>
+                                Ver proyecto
+                            </button>
+                        </a>
+                        <a target="_blank" href="https://github.com/Esttiwar/landing-email-validator">
+                            <button className='rounded-lg text-black font-semibold border-solid border-2 border-black py-4 px-7 my-10 2xl:text-xl'>
+                                Ver código
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -31,12 +31,16 @@ const Proyecto3 = () => {
                         </span>
                     </div>
                     <div>
-                        <button className='rounded-lg mr-8 text-black font-semibold p-4 bg-white my-10 2xl:text-xl'>
-                            Ver proyecto
-                        </button>
-                        <button className='rounded-lg text-white font-semibold border-solid border-2 border-white py-4 px-7 bg-black my-10 2xl:text-xl'>
-                            Ver código
-                        </button>
+                        <a target="_blank" href="https://esttiwar.github.io/rick-and-morty-api-react/">
+                            <button className='rounded-lg mr-8 text-black font-semibold p-4 bg-white my-10 2xl:text-xl'>
+                                Ver proyecto
+                            </button>
+                        </a>
+                        <a target="_blank" href="https://github.com/Esttiwar/rick-and-morty-api-react">
+                            <button className='rounded-lg text-white font-semibold border-solid border-2 border-white py-4 px-7 bg-black my-10 2xl:text-xl'>
+                                Ver código
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

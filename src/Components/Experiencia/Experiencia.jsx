@@ -13,7 +13,7 @@ const Experiencia = () => {
             <div>
                 <h1 className='line text-4xl font-black'>______________________________</h1>
             </div>
-            {/* Experiencia */}
+            {/* Experiencia 1 */}
             <div className='mt-10 px-60 exp-1'>
                 <div className='mt-10'>
                     <h1 className='text-white font-bold text-lg'>
@@ -21,13 +21,32 @@ const Experiencia = () => {
                     </h1>
                 </div>
                 <div>
-                    <h2 className='text-gray-400 font-semibold text-lg my-5'>
+                    <h2 className='text-gray-400 font-semibold text-lg my-2'>
                         FrontEnd Sep-Dic 2021
                     </h2>
                 </div>
                 <div>
                     <p className='text-white text-lg'> 
                     La experiencia que gané en los proyectos fue en la construcción de interfaces gráficas, uno fue para que los equipos de investigación realicen sus proyectos y lleven un control de sus actualizaciones y el otro fue un sistema de seguimiento de ventas y productos de los usuarios.
+                    </p>
+                </div>
+            </div>
+
+            {/* Experiencia 2 */}
+            <div className='mt-10 px-60 exp-1'>
+                <div className='mt-10'>
+                    <h1 className='text-white font-bold text-lg'>
+                        Student Internships UdeA
+                    </h1>
+                </div>
+                <div>
+                    <h2 className='text-gray-400 font-semibold text-lg my-2'>
+                        Python Developer Mar-Jun 2020
+                    </h2>
+                </div>
+                <div>
+                    <p className='text-white text-lg'> 
+                        Desarrollo a partir de un código base, un juego de Snake con niveles de dificultad utilizando la librería gráfica Turtle. Como parte del proyecto final de la asignatura "Fundamentos de Programación" del programa de Astronomía de la Universidad de Antioquia.
                     </p>
                 </div>
             </div>

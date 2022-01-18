@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Proyecto1.css"
 import { Icon } from '@iconify/react';
+import { Link } from "react-router-dom";
 
 const Proyecto1 = () => {
     return (
@@ -37,12 +38,16 @@ const Proyecto1 = () => {
                         </span>
                     </div>
                     <div>
-                        <button className='rounded-lg mr-8 font-semibold p-4 bg-gray-50 my-10 2xl:text-xl'>
-                            Ver proyecto
-                        </button>
-                        <button className='rounded-lg text-white font-semibold border-solid border-2 border-white py-4 px-7 bg-neutral-900 my-10 2xl:text-xl'>
-                            Ver código
-                        </button>
+                        <a target="_blank" href="https://proyectorio.herokuapp.com/">
+                            <button className='rounded-lg mr-8 font-semibold p-4 bg-gray-50 my-10 2xl:text-xl'>
+                                Ver proyecto
+                            </button>
+                        </a>
+                        <a target="_blank" href="https://github.com/Equipo-Nova-Agil/Ciclo4">
+                            <button className='rounded-lg text-white font-semibold border-solid border-2 border-white py-4 px-7 bg-neutral-900 my-10 2xl:text-xl'>
+                                Ver código
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

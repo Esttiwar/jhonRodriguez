@@ -13,12 +13,16 @@ const Contacto = () => {
                 </h1>
             </div>
             <div className='display flex'>
-                <span className='mx-5'>
-                    <Icon icon="logos:linkedin-icon" width="48" height="48" inline={true} />
-                </span>
-                <span className='mx-5'>
-                    <Icon icon="icon-park:github" width="48" height="48" inline={true} />
-                </span>
+                <a className='mx-5' target="_blank" href="https://www.linkedin.com/in/jhon-rodriguez-correa/">
+                    <span>
+                        <Icon icon="logos:linkedin-icon" width="48" height="48" inline={true} />
+                    </span>
+                </a>
+                <a className='mx-5' target="_blank" href="https://github.com/Esttiwar">
+                    <span>
+                        <Icon icon="icon-park:github" width="48" height="48" inline={true} />
+                    </span>
+                </a>
             </div>
         </div>
     )

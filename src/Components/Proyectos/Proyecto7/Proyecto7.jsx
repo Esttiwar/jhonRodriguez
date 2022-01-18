@@ -26,12 +26,16 @@ const Proyecto7 = () => {
                         
                     </div>
                     <div>
-                        <button className='rounded-lg mr-8 text-black font-semibold p-4 bg-white my-10 2xl:text-xl'>
-                            Ver proyecto
-                        </button>
-                        <button className='rounded-lg text-white font-semibold border-solid border-2 border-white py-4 px-7 bg-neutral-900 my-10 2xl:text-xl'>
-                            Ver código
-                        </button>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=KavMnA-627M">
+                            <button className='rounded-lg mr-8 text-black font-semibold p-4 bg-white my-10 2xl:text-xl'>
+                                Ver proyecto
+                            </button>
+                        </a>
+                        <a target="_blank" href="https://github.com/Esttiwar/Snake-project">
+                            <button className='rounded-lg text-white font-semibold border-solid border-2 border-white py-4 px-7 bg-neutral-900 my-10 2xl:text-xl'>
+                                Ver código
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>      
