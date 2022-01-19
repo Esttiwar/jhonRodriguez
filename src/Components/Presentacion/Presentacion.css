@@ -53,3 +53,9 @@
         padding: 10px 0px;
     }
 }
+
+@media screen and (max-width: 375px){
+    .text{
+        padding: 15px 20px;
+    }
+}
