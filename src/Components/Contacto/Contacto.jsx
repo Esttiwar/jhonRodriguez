@@ -7,6 +7,7 @@ const Contacto = () => {
         <div className='fondo-contacto w-screen'>
             <div>
                 <a name="ancla-e" />
+                <a name="ancla-cr" />
                 <h1 className='text-4xl font-bold text-white 2xl:text-4xl pt-60 pb-12 text-center'>
                     ¿Te gustaría contactarme?
                     ¡Hazlo!

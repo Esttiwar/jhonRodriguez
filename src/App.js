@@ -21,7 +21,8 @@ function App() {
   return (
     <div className='w-screen'>
       <div class="up">
-            <a href="#navbar"><Icon icon="akar-icons:circle-chevron-up-fill" width="40" height="40" /></a>
+            <a className='up-pc' href="#navbar"><Icon icon="akar-icons:circle-chevron-up-fill" width="40" height="40" /></a>
+            <a className='up-mobil' href="#navmenu"><Icon icon="akar-icons:circle-chevron-up-fill" width="40" height="40" /></a>
       </div>
       <Navbar />
       <Presentacion />

@@ -13,6 +13,7 @@ const Navbar = () => {
                 <h1 className='text-white px-2 font-bold text-3xl'>Jhon Rodríguez</h1>
             </div>
             <div onClick={() => {setMenuHamburguesa(!menuHamburguesa)}} className='burguer-menu'>
+            <a name="navmenu" />
                 <button className='burguer-menu-btn'>
                     {
                         menuHamburguesa 
@@ -23,12 +24,24 @@ const Navbar = () => {
                 
             </div>
             <div>
-            {menuHamburguesa && <div>
+            {menuHamburguesa && <div className='responsive-menu-hamburguesa'>
              <ul>
-                    <li className='ml-3 mt-5 text-white text-2xl'>Proyectos</li>
-                    <li className='ml-3 text-white text-2xl'>Experiencia</li>
-                    <li className='ml-3 text-white text-2xl'>Contacto</li>
-                </ul>
+                <a href="#ancla-pr">
+                    <li className='ml-3 mt-5 text-white text-2xl'>
+                        Proyectos
+                    </li>
+                </a>
+                <a href="#ancla-er">
+                    <li className='ml-3 text-white text-2xl'>
+                        Experiencia
+                    </li>
+                </a>
+                <a href="#ancla-cr">
+                    <li className='ml-3 text-white text-2xl'>
+                        Contacto
+                    </li>
+                </a>
+              </ul>
                 </div>  
             }
             </div>

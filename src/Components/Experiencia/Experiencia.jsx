@@ -6,6 +6,7 @@ const Experiencia = () => {
         <div className='fondo-exp w-screen'>
             <div className=''>
                 <a name="ancla-e" />
+                <a name="ancla-er" />
                 <h1 className='text-4xl font-bold text-white 2xl:text-7xl pt-32 pb-12 text-center'>
                     Experiencia
                 </h1>
