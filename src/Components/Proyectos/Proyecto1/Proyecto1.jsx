@@ -47,7 +47,7 @@ const Proyecto1 = () => {
                         </div>
                         <div>
                             <a target="_blank" href="https://github.com/Equipo-Nova-Agil/Ciclo4">
-                                <button className='rounded-lg ver-codigo text-white font-semibold border-solid border-2 border-white py-4 px-7 bg-neutral-900 my-10 2xl:text-xl'>
+                                <button className='rounded-lg ver-codigo text-white font-semibold border-solid border-2 border-white px-7 bg-neutral-900 my-10 2xl:text-xl'>
                                     Ver código
                                 </button>
                             </a>

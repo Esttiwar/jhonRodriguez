@@ -21,6 +21,12 @@
     background: linear-gradient(90deg,rgba(255, 255, 255, 0.1) 40%, #04001e);
 }
 
+.ver-codigo {
+    padding: 14px 25px;
+}
+
+
+
 @media screen and (max-width: 1024px) {
     .fondo-proyecto{
         display: flex;
