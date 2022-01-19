@@ -3,7 +3,7 @@ import "./Proyecto5.css"
 
 const Proyecto5 = () => {
     return (
-        <div className='display fondo-proyecto5 flex bg-pink-500 w-screen'>
+        <div className='display fondo-proyecto5 flex bg-pink-500'>
             <div className='w-1/2 img-proyecto5 display flex justify-center items-center'>
                 <img src="https://i.postimg.cc/tRD9S9YG/fondoproyecto1.png" alt="imagen proyecto" />
             </div>

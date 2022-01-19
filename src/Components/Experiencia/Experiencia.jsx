@@ -3,7 +3,7 @@ import "./Experiencia.css"
 
 const Experiencia = () => {
     return (
-        <div className='fondo-exp w-screen'>
+        <div className='fondo-exp'>
             <div className=''>
                 <a name="ancla-e" />
                 <a name="ancla-er" />

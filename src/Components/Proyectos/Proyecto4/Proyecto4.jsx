@@ -3,7 +3,7 @@ import "./Proyecto4.css"
 
 const Proyecto4 = () => {
     return (
-        <div className='display fondo-proyecto4 flex bg-green-400 w-screen'>
+        <div className='display fondo-proyecto4 flex bg-green-400'>
             <div className='w-1/2 display flex py-32 px-32 texto-p4'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-black 2xl:text-4xl'>

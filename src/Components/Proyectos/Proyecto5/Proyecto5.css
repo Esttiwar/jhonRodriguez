@@ -39,3 +39,12 @@
         background: linear-gradient(rgba(255, 255, 255, 0.1) 40%, #ec4899);
     }
 }
+
+@media screen and (max-width: 425px) {
+    .texto-p5{
+        width: 100%;
+        justify-content: center;   
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

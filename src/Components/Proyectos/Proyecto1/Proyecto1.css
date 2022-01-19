@@ -80,3 +80,37 @@
         padding: 8px 85px
     }
 }
+
+@media screen and (max-width: 425px) {
+    .texto-p1{
+        width: 100%;
+        justify-content: center;   
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .ver-proyecto {
+        margin: 15px 0;
+        padding: 8px 84px;
+    }
+    .ver-codigo{
+        margin: 15px 0;
+        padding: 8px 90px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .texto-p1{
+        width: 100%;
+        justify-content: center;   
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .ver-proyecto {
+        margin: 15px 0;
+        padding: 8px 65px;
+    }
+    .ver-codigo{
+        margin: 15px 0;
+        padding: 5px 70px
+    }
+}

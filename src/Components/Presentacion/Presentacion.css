@@ -1,3 +1,4 @@
+
 .fondo {
     background-color: #202020;
 }
@@ -44,5 +45,11 @@
     .cv{
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .fondo{
+        padding: 10px 0px;
     }
 }

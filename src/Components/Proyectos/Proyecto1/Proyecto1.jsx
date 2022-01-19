@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const Proyecto1 = () => {
     return (
-        <div className='display flex fondo-proyecto w-screen'>
+        <div className='display flex fondo-proyecto'>
             <a name="ancla-p" />
             <a name="ancla-pr" />
             <div className='w-1/2 img-proyecto1 display flex justify-center items-center'>

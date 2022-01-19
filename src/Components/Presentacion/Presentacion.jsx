@@ -5,7 +5,7 @@ const Presentacion = () => {
 
 
     return (
-        <div className='display flex fondo pt-10 w-screen px-20'>
+        <div className='display flex fondo pt-10 px-20'>
             <div className='w-1/2 pt-10 px-10 text'>
                 <h2 className='text-xl font-bold text-white 2xl:text-3xl'>
                     Hola, soy Jhon Rodríguez, un Frontend Developer apasionado por la tecnología y la innovación.

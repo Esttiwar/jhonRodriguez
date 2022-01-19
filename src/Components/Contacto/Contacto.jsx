@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const Contacto = () => {
     return (
-        <div className='fondo-contacto w-screen'>
+        <div className='fondo-contacto'>
             <div>
                 <a name="ancla-e" />
                 <a name="ancla-cr" />

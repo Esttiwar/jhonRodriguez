@@ -1,8 +1,8 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  }
+
+.contenedor-padre{
+  /* display: block; */
+  border: 10px blue solid;
+}
 
 .up {
   display: flex;
@@ -31,3 +31,8 @@
   }
 }
 
+@media screen and (max-width: 425px){
+  .contenedor-padre{
+    width: 100vw;
+  }
+}
