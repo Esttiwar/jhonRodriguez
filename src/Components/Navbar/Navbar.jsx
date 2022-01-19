@@ -1,14 +1,38 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Navbar.css"
+import { Icon } from '@iconify/react';
 
 const Navbar = () => {
+
+    const [menuHamburguesa, setMenuHamburguesa] = useState(false)
+
     return (
         <div className='diplay flex md:justify-around navbar-color py-5 w-screen'>
-            <div className=''>
+            <div className='mi-nombre'>
                 <a name="navbar" />
                 <h1 className='text-white px-2 font-bold text-3xl'>Jhon Rodríguez</h1>
             </div>
-            <div className='diplay flex justify-center'>
+            <div onClick={() => {setMenuHamburguesa(!menuHamburguesa)}} className='burguer-menu'>
+                <button className='burguer-menu-btn'>
+                    {
+                        menuHamburguesa 
+                        ? <Icon icon="emojione-monotone:cross-mark" width="48" height="48" />
+                        : <Icon icon="dashicons:menu-alt3" width="48" height="48" />
+                    }
+                </button>
+                
+            </div>
+            <div>
+            {menuHamburguesa && <div>
+             <ul>
+                    <li className='ml-3 mt-5 text-white text-2xl'>Proyectos</li>
+                    <li className='ml-3 text-white text-2xl'>Experiencia</li>
+                    <li className='ml-3 text-white text-2xl'>Contacto</li>
+                </ul>
+                </div>  
+            }
+            </div>
+            <div className='diplay flex justify-center menu'>
                 <button>
                     <a href="#ancla-p">
                         <h2 className='text-white mx-6 text-lg'>Proyectos</h2>

@@ -1,3 +1,33 @@
 .navbar-color {
     background-color: #202020;
 }
+
+.burguer-menu{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+
+    .mi-nombre{
+        display: none;
+    }
+
+    .burguer-menu{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .burguer-menu-btn {
+        color: white;
+    }
+
+    .navbar-color{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
