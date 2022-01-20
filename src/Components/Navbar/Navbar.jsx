@@ -7,7 +7,7 @@ const Navbar = () => {
     const [menuHamburguesa, setMenuHamburguesa] = useState(false)
 
     return (
-        <div className='diplay flex md:justify-evenly navbar-color py-5'>
+        <div className='diplay flex md:justify-evenly navbar-color py-5 w-screen'>
             <div className='mi-nombre'>
                 <a name="navbar" />
                 <h1 className='text-white px-2 font-bold text-3xl'>Jhon Rodríguez</h1>

@@ -27,7 +27,7 @@
     .burguer-menu{
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
+        padding-left: 20px;
     }
 
     .burguer-menu-btn {

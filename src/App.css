@@ -1,7 +1,8 @@
 
 .contenedor-padre{
-  /* display: block; */
-  border: 1px blue solid;
+  /* border: 5px red solid; */
+  width: 100%;
+  overflow-y: auto;
 }
 
 .up {
@@ -28,11 +29,5 @@
 
   .up-mobil{
     display: flex;
-  }
-}
-
-@media screen and (max-width: 425px){
-  .contenedor-padre{
-    width: 100vw;
   }
 }
