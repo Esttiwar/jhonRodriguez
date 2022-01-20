@@ -3,6 +3,7 @@
   /* border: 5px red solid; */
   width: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .up {
