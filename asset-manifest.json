@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/jhonRodriguez/static/css/main.0ce60537.css",
-    "main.js": "/jhonRodriguez/static/js/main.6b25abcf.js",
+    "main.css": "/jhonRodriguez/static/css/main.e2b98d8b.css",
+    "main.js": "/jhonRodriguez/static/js/main.126ffdf7.js",
     "static/js/787.dc88ead7.chunk.js": "/jhonRodriguez/static/js/787.dc88ead7.chunk.js",
+    "static/media/CV-Jhon-Rodriguez-0122.pdf": "/jhonRodriguez/static/media/CV-Jhon-Rodriguez-0122.46c529541f2f2ae5dca9.pdf",
     "index.html": "/jhonRodriguez/index.html",
-    "main.0ce60537.css.map": "/jhonRodriguez/static/css/main.0ce60537.css.map",
-    "main.6b25abcf.js.map": "/jhonRodriguez/static/js/main.6b25abcf.js.map",
+    "main.e2b98d8b.css.map": "/jhonRodriguez/static/css/main.e2b98d8b.css.map",
+    "main.126ffdf7.js.map": "/jhonRodriguez/static/js/main.126ffdf7.js.map",
     "787.dc88ead7.chunk.js.map": "/jhonRodriguez/static/js/787.dc88ead7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ce60537.css",
-    "static/js/main.6b25abcf.js"
+    "static/css/main.e2b98d8b.css",
+    "static/js/main.126ffdf7.js"
   ]
 }
