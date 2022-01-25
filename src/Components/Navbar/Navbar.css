@@ -40,3 +40,15 @@
         justify-content: space-around;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .burguer-icon{
+        width: 30px;
+        height: 30px;
+    }
+
+    .x-icon{
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Presentacion.css"
+import Cv from "../CV/CV-Jhon-Rodriguez-0122.pdf"
 
 const Presentacion = () => {
 
@@ -14,9 +15,9 @@ const Presentacion = () => {
                     Soy una persona proactiva, honesta, curiosa, empática y resolutiva. Me gusta trabajar en equipo, asumir retos, apoyar nuevos proyectos y compartir conocimientos con la comunidad. Con ganas de tener nuevas experiencias de aprendizaje y así, crecer personal y profesionalmente.
                 </p>
                 <div>
-                    <a className='cv' target="_blank" href="https://drive.google.com/file/d/1zDQcy0o15WCwf2p1eVl2pNmyMF1_qYQ7/view?usp=sharing" download="downloadedfile">
+                    <a className='cv' href={Cv} download="CV Jhon Rodriguez">
                         <button className='rounded-lg p-3 bg-blue-400 my-10 2xl:text-xl'>
-                            Ver currículum
+                            Descargar currículum
                         </button>
                     </a>
                 </div>

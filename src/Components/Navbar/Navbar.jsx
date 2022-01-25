@@ -17,8 +17,8 @@ const Navbar = () => {
                 <button className='burguer-menu-btn'>
                     {
                         menuHamburguesa 
-                        ? <Icon icon="emojione-monotone:cross-mark" width="48" height="48" />
-                        : <Icon icon="dashicons:menu-alt3" width="48" height="48" />
+                        ? <Icon className='x-icon' icon="emojione-monotone:cross-mark" width="48" height="48" />
+                        : <Icon className='burguer-icon' icon="dashicons:menu-alt3" width="48" height="48" />
                     }
                 </button>
                 

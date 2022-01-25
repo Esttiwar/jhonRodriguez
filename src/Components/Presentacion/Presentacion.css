@@ -49,6 +49,12 @@
     }
 }
 
+@media screen and (max-width: 540px){
+    .fondo{
+        padding: 10px 0px;
+    }
+}
+
 @media screen and (max-width: 425px){
     .fondo{
         padding: 10px 0px;
