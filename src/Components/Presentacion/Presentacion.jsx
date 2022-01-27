@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Presentacion.css"
 import Cv from "../CV/CV-Jhon-Rodriguez-0122.pdf"
+import profileImage from '../Imagenes/profile.jpg'
 
 const Presentacion = () => {
 
@@ -23,7 +24,7 @@ const Presentacion = () => {
                 </div>
             </div>
             <div className='w-1/2 image-perfil'>
-                <img src="https://i.postimg.cc/kXqvC57Z/2expo.jpg" alt="imagen de perfil" />
+                <img src={profileImage} alt="imagen de perfil" />
             </div>
         </div>
     )
