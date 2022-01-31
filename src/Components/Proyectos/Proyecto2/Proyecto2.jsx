@@ -8,12 +8,12 @@ const Proyecto2 = () => {
             <div className='w-1/2 display flex py-32 px-32 texto-p2'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-black 2xl:text-4xl'>
-                        Gestión de ventas
+                        Gestión de ventas (En equipo)
                     </h1>
                     <p className='text-base text-black pt-10 2xl:text-2xl'>
                     Formé parte de este proyecto en el frontend, para la aplicación se construyó un sistema de seguimiento de ventas y productos de los usuarios. Utilizamos Toastify para notificar al usuario sobre sus acciones y conexión a una API backend creada por mi equipo para hacer una API REST-CRUD.
 
-                    Utilizamos la metodologia ágil Scrum para organizar la forma en cómo trabajamos y llevamos el proyecto.
+                    Utilizamos la metodologia SCRUM para organizar la forma en cómo trabajamos y llevamos el proyecto.
                     </p>
                     <div className='diplay flex'>
                     <span title="React">

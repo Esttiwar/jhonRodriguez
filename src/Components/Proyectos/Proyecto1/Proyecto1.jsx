@@ -13,12 +13,12 @@ const Proyecto1 = () => {
             <div className='w-1/2 display flex py-32 px-32 texto-p1'>
                 <div className=''>
                     <h1 className='text-xl font-bold text-white 2xl:text-4xl'>
-                        Proyectorio
+                        Proyectorio (En equipo)
                     </h1>
                     <p className='text-base text-white pt-10 2xl:text-2xl'>
                     Formé parte de este proyecto en el frontend, la aplicación fue construida para que los equipos de investigación realicen sus proyectos y lleven un control de sus actualizaciones. Usamos Toastify para notificar al usuario sobre sus acciones, y para la comunicación con el backend usamos GraphQL.
 
-                    Utilizamos la metodologia ágil Scrum para organizar la forma en cómo trabajamos y llevamos el proyecto.
+                    Utilizamos la metodologia SCRUM para organizar la forma en cómo trabajamos y llevamos el proyecto.
                     </p>
                     <div className='diplay flex'>
                         <span title="React">
