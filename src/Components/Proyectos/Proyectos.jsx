@@ -7,10 +7,12 @@ import Proyecto5 from './Proyecto5/Proyecto5.jsx'
 import Proyecto6 from './Proyecto6/Proyecto6.jsx'
 import Proyecto7 from './Proyecto7/Proyecto7.jsx'
 import Proyecto8 from './Proyecto8/Proyecto8.jsx'
+import Proyecto9 from './Proyecto9/Proyecto9.jsx'
 
 const Proyectos = () => {
     return (
         <div>
+            <Proyecto9 />
             <Proyecto1 />
             <Proyecto2 />
             <Proyecto3 />
