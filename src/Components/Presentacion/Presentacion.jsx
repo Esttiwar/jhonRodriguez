@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Presentacion.css"
-import Cv from "../CV/CV-Jhon-Rodriguez-0522.pdf"
+import Cv from "../CV/CV-Jhon-Rodriguez-0223.pdf"
 import profileImage from '../Imagenes/profile.jpg'
 
 const Presentacion = () => {
