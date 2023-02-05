@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jhonRodriguez/static/css/main.9d3e4efc.css",
-    "main.js": "/jhonRodriguez/static/js/main.4cd16387.js",
+    "main.js": "/jhonRodriguez/static/js/main.2e069c60.js",
     "static/js/787.dc88ead7.chunk.js": "/jhonRodriguez/static/js/787.dc88ead7.chunk.js",
     "static/media/profile.jpg": "/jhonRodriguez/static/media/profile.b09ddef5c87e7422f87d.jpg",
-    "static/media/CV-Jhon-Rodriguez-0522.pdf": "/jhonRodriguez/static/media/CV-Jhon-Rodriguez-0522.e8184df6c58e34ef3e48.pdf",
+    "static/media/CV-Jhon-Rodriguez-0223.pdf": "/jhonRodriguez/static/media/CV-Jhon-Rodriguez-0223.af0100d959f33f6348bb.pdf",
     "index.html": "/jhonRodriguez/index.html",
     "main.9d3e4efc.css.map": "/jhonRodriguez/static/css/main.9d3e4efc.css.map",
-    "main.4cd16387.js.map": "/jhonRodriguez/static/js/main.4cd16387.js.map",
+    "main.2e069c60.js.map": "/jhonRodriguez/static/js/main.2e069c60.js.map",
     "787.dc88ead7.chunk.js.map": "/jhonRodriguez/static/js/787.dc88ead7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d3e4efc.css",
-    "static/js/main.4cd16387.js"
+    "static/js/main.2e069c60.js"
   ]
 }
